@@ -8,7 +8,6 @@ import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
 import io.netty.handler.timeout.IdleStateHandler;
-import sun.plugin2.main.server.HeartbeatThread;
 
 public class WebsocketInitializer extends ChannelInitializer<SocketChannel> {
     @Override
